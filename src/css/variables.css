@@ -1,0 +1,9 @@
+:root {
+    --background-card: hsl(225, 100%, 98%);
+    --background-plan: hsl(225, 100%, 94%);
+    --link-change: ;
+    --button-proceed: hsl(245, 75%, 52%);
+    --button-proceed-active: ;
+    --link-cancel: hsl(224, 23%, 55%);
+    --link-cancel-active: hsl(223, 47%, 23%);
+}
