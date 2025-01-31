@@ -4,6 +4,6 @@
     --link-change: ;
     --button-proceed: hsl(245, 75%, 52%);
     --button-proceed-active: ;
-    --link-cancel: hsl(224, 23%, 55%);
-    --link-cancel-active: hsl(223, 47%, 23%);
+    --soft-text: hsl(224, 23%, 55%);
+    --dark-text: hsl(223, 47%, 23%);
 }
