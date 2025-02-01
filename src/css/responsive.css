@@ -1,0 +1,44 @@
+@media (max-width: 425px) {
+    .card {
+        max-width: 325px;
+        height: 567px;
+        border-radius: 20px;
+    }
+
+    .content {
+        padding: 27px 23px 0px;
+    }
+
+    .content .title {
+        font-size: 1.4rem;
+    }
+
+    .content p {
+        letter-spacing: -.3px;
+        padding: 0 15px;
+        line-height: 1.55rem;
+        margin-bottom: 24px;
+    }
+
+    .content .plan {
+        padding: 16px;
+        margin-bottom: 1.6rem;
+    }
+
+    .content .plan img {
+        margin-right: 17px;
+    }
+
+    .content .plan .cost h3 {
+        font-size: .9rem;
+    }
+
+    .content .btn-preceed {
+        letter-spacing: -.3px;
+        margin-bottom: 1.5rem;
+    }
+
+    .content .cancel {
+        font-size: .9rem;
+    }
+}
