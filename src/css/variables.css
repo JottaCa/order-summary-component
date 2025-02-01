@@ -1,9 +1,10 @@
 :root {
-    --background-card: hsl(225, 100%, 98%);
-    --background-plan: hsl(225, 100%, 94%);
-    --link-change: ;
-    --button-proceed: hsl(245, 75%, 52%);
-    --button-proceed-active: ;
+    --background: hsl(225, 100%, 94%);
+    --background-card: hsl(0, 0%, 100%);
+    --plan: hsl(225, 100%, 98%);
+    --button-proceed-change: hsl(245, 75%, 52%);
+    --button-change-active: hsl(245, 83%, 68%);
     --soft-text: hsl(224, 23%, 55%);
     --dark-text: hsl(223, 47%, 23%);
 }
+

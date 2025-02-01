@@ -4,7 +4,7 @@ html {
     font-family: "Red Hat Display", sans-serif;
     font-size: 1rem;
     font-weight: 500;
-    background-color: var(--background-plan);
+    background-color: var(--background);
 }
 
 body {
@@ -19,10 +19,9 @@ body {
 .card {
     background-color: var(--background-card);
     max-width: 450px;
-    /* height: 697px; */
     border-radius: 20px;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    box-shadow: rgba(56, 41, 224, 0.15) 0px 20px 25px 5px, rgba(56, 41, 224, 0.04) 0px 10px 10px -5px;
 }
 
 .top-image img {
@@ -40,18 +39,19 @@ body {
 .content .title {
     font-size: 1.8rem;
     font-weight: 900;
+    color: var(--dark-text);
     margin-bottom: 1.1rem;
 }
 
 .content p {
+    color: var(--soft-text);
     letter-spacing: 0.2px;
     line-height: 1.6rem;
     margin-bottom: 1.3rem;
-    color: var(--soft-text);
 }
 
 .content .plan {
-    background-color: var(--background-plan);
+    background-color: var(--plan);
     display: flex;
     min-width: 100%;
     padding: 25px;
@@ -62,14 +62,25 @@ body {
 .content .plan .cost h3 {
     font-size: 1rem;
     font-weight: 900;
+    color: var(--dark-text);
     margin-bottom: .4rem;
-    /* color: var(--dark-text); */
+}
+
+.content .plan .cost span {
+    color: var(--soft-text);
 }
 
 .content .plan a {
     margin-left: auto;
     align-self: center;
     font-size: .9rem;
+    font-weight: 700;
+    color: var(--button-proceed-change);
+}
+
+.content .plan a:hover {
+    color: var(--button-change-active);
+    text-decoration: none;
 }
 
 .content .plan img {
@@ -77,7 +88,7 @@ body {
 }
 
 .content .btn-preceed {
-    background-color: var(--button-proceed);
+    background-color: var(--button-proceed-change);
     height: 50px;
     border-radius: 10px;
     border: 0;
@@ -85,11 +96,21 @@ body {
     font-weight: 700;
     color: var(--background-card);
     margin-bottom: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    box-shadow: rgba(56, 41, 224, 0.2) 0px 20px 25px 5px, rgba(56, 41, 224, 0.04) 0px 10px 10px -5px;
+}
+
+.content .btn-preceed:hover {
+    cursor: pointer;
+    background-color: var(--button-change-active);
+    box-shadow: rgba(117, 106, 241, 0.25) 0px 20px 25px 5px, rgb(117, 106, 241, 0.15) 0px 10px 10px -5px;
 }
 
 .content .cancel {
-    color: var(--soft-text);
     text-decoration: none;
     font-weight: 900;
+    color: var(--soft-text);
+}
+
+.content .cancel:hover {
+    color: var(--dark-text);
 }
